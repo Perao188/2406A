@@ -1,0 +1,42 @@
+fun main() {
+   // Concatenação
+   // 
+   //
+   /*
+   var tartaruga = "Michael Jackson"
+    
+    
+    println("O nome da tartaruga do Kylian Mbappé é $tartaruga")
+    println("O nome da tartaruga do Kylian Mbappé é " + tartaruga)
+    
+    var leclerc= 2
+    var alonso = 1
+    
+    println ("A posição do Lek Lek + a posição do Alonso são ${(leclerc + alonso)}")
+    println ("A posição do Lek Lek + a posição do Alonso são " + (leclerc + alonso))
+    
+    var nome = "Eduardo"
+    var idade = 19
+    var cidade = "São Paulo"
+    
+    println ("O meu nome é $nome, eu tenho $idade anos e moro em $cidade")
+    */
+    
+    // Exercício - * Faça um diálogo de no mínimo 15 linhas, nele deve contar,
+    // os nomes de quem estão falando de forma concatenada usando variáveis
+    // Usem a criatividade
+    //
+    
+    var time = "Palmeiras"
+    var ano = "1914"
+    var paulistas = "24"
+    var brasileirão = "11"
+    var copadobrasil = "4"
+    var libertadores = "3"
+    
+    println("O melhor time do Brasil se chama $time, fundado em $ano, tem atualmente (2023), possui $paulistas")
+            ("Campeonatos Paulistas, $brasileirão Campeonatos Brasileiros, $copadobrasil Copas do Brasil e
+             ("$libertadores Libertadores.")
+    
+    
+}
