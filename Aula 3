@@ -1,0 +1,21 @@
+fun main() { 
+    var time = "Palmeiras"
+    var ano = "1914"
+    var paulistas = "24"
+    var brasileirão = "11"
+    var copadobrasil = "4"
+    var libertadores = "3"
+    var tecnico = "Abel Ferreira"
+    var rival1 = "Corinthians"
+    var rival2 = "São Paulo"
+    var rival3 = "Santos"
+    
+    println ("O melhor time do Brasil se chama $time, fundado em $ano, tem atualmente (2023),")
+    println ("possui $paulistas Campeonatos Paulistas $brasileirão Campeonatos")
+    println ("Brasileiros, $copadobrasil Copas do Brasil e $libertadores Libertadores.")
+    println ("O $time é o melhor time do Brasil atualmente, isso por conta de $tecnico,")
+    println ("que já soma 2 Libertadores, 1 Copa do Brasil, 1 Brasileirão e 1 Paulista.")
+    println ("Os maiores rivais do $time são $rival1, $rival2 e $rival3, tendo mais vitórias")
+    println ("em confrontos contra todos os rivais.")
+             
+}
