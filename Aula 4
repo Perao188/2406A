@@ -1,0 +1,22 @@
+fun main() {
+   val kotlin = "🙂"
+   println(kotlin)
+   
+   //Operadores Matenáticos
+   
+   // + -> adição
+   // - -> subtração
+   // / -> divisão
+   // * -> multiplicação
+   // % -> módulo - resto da divisão
+   // 
+   var halls = 7
+   var freegells = 6
+    
+   println (halls/greegells)package
+   */
+   // Exercício - faça uma calculadora que contenha cada um dos operadores matemáticos
+   // com o resultado do calculo de duas variaveis (contendo resultado para +, -, /, * e %),
+   // contendo também uma interface simples e bem bonita.
+   
+}
