@@ -1,0 +1,73 @@
+fun main() {
+    println("PERAA")
+    
+    // Operadores Relacionais
+    // 
+    // == -> igual a...
+    // != -> diferente de...
+    // > -> maior que...
+    // < -> menor que...
+    // >= -> maior ou igual a...
+    // <= -> menor ou igual a...
+    // 
+    // Operadores Adicionais
+    // 
+    // ++ -> adiciona 1 ao valor
+    // -- -> subtrai 1 ao valor
+    // == -> adiciona um determinado valor ao valor
+    // -= -> subutrai um determinado valor ao valor
+    /*
+    
+    var clauldetty = 50
+    var josias = 30
+    var berennice = 90
+    var bernnadetthy = 80
+    
+    
+    
+    println(clauldetty)
+    clauldetty++
+    println(clauldetty)
+    println("")
+    println(josias)
+    josias --
+    println("")
+    println(berennice)
+    berennice += clauldetty
+    println(berennice)
+    println("")
+    println(bernnadetthy)
+    bernnadetthy -= josias
+    println(bernnadetthy)
+    
+    
+    // Condições if..else
+    
+    // se... senão
+    // 
+    // estrutura:
+    // 
+    // if..else simples 
+    //         
+    // if(condição){
+    // ação
+    // }else{
+    // ação
+    // }
+    
+    var interruptor = true
+    
+    if(interruptor != true){
+        println("luz acesa")
+    }else{
+        println("luz apagada")
+    }
+    */
+    var fome = true
+    
+    if(fome){
+        println("Alimente-se!")
+    }else{
+        println("Alimentou-se")
+    }
+}
