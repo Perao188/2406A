@@ -1,4 +1,165 @@
 fun main() {
-   println("Pega na minha pika")
+    
+    /*
+    println("|----------Minha Calculadora------------|")
+     println("")
+   
+     println("Armas= 75 Munições= 125")
+     
+     var armas = 75.0
+     var municoes = 125.0
+     println("")
+     
+     println("${(armas + municoes)}   - ADIÇÃO") 
+     println("${(armas - municoes)}   - SUBTRAÇÃO")
+     println("${(armas / municoes)}     - DIVISÃO")
+     println("${(armas * municoes)}  - MULTIPLICAÇÃO")
+     println("${(armas % municoes)}    - MÓDULO")
+     
+     println("|---------------------------------------|")
+     */
+    
+    // Operadores Relacionais
+    //
+    // == -> Igual a...
+    // != -> Diferente de...
+    // !  -> Negando valor
+    // >  -> Maior que...
+    // <  -> Menor que...
+    // >= -> Maior ou igual a...
+    //
+    //
+    // ++ -> Adiciona 1 ao valor.
+    // -- -> Subtrai 1 valor.
+    // += -> Adiciona um determinado valor à um valor.
+    // -= -> Subtrai um determinado valor de um valor.
+    
+    /*var clauldetty = 50
+    var josias = 30
+    var berennice = 90
+    var bernnadetthy = 80
+    
+    println("valor de clauldetty:")
+    println("")
+    println(clauldetty)
+    println("")
+    println("adicionar 1 à clauldetty")
+    clauldetty++
+    println("")
+    println(clauldetty)
+    println("")
+    println("valor de josias:")
+    println("")
+    println(josias)
+    josias--
+    println(josias)
+    println("valor de berennice:")
+    println("")
+    println(berennice)
+    println("")
+    println("adicionar 10 à berennice")
+    berennice += 10
+    println("")
+    println(berennice)
+    println("")
+    println("valor de berennice:")
+    println("")
+    println(bernnadetthy)
+    bernnadetthy -= josias
+    println(bernnadetthy)*/
+    
+    // Condições if...else
+    // 
+    // se...se não
+    // 
+    // estrutura:
+    // 
+    // if...else simples
+    // 
+    // if(condição){
+    // ação
+    // }else{
+    // ação
+    // }
+
+    /*var interruptor = true
+    
+    if(interruptor != true){
+        println("Luz acesa :) ")
+    }else{
+        println("Luz apagada :( ")
+    }
+    */
+    
+    /*
+     
+    var fome = true
+    
+    if(!fome){
+        println("Alimente-se!")
+    }else{
+        println("Alimentou-se!")
+    
+    
+    
+    var senha = "azeitona"
+    
+    if(senha == "azeitona"){
+    	println("Bem-Vindo Sr Stark")
+}else{
+    println("Senha incorreta, Tente novamente")
 }
-//------------------------------------------------------------
+
+        
+    }
+
+// if..else composto
+// 
+// com o if..else composto, somos permitidos, comparar mais de duas condições (o simples
+// e o else), através do 'else if'
+// 
+
+var coracoes = 5
+if(coracoes >= 5){
+    println("Você está muito saudável! Parabéns!")
+}else if(coracoes = 4){
+    println("Você tá de boa")
+}else if(coracoes = 3){
+    println("Cuidado com a sua saúde")
+}else if(coracoes = 2){
+    println("Vá se tratar")
+}else if(coracoes = 1){
+    println("Estado crítico")
+}else{
+    println ("Contratado pelo Vasco")    
+    
+}
+*/
+
+    var grifinória = 8
+    var sonserina = 5
+    
+    if(grifinória > sonserina){
+        println("Grifinória é maior que sonserina")
+    }else if(grifinória < sonserina){
+        println("Sonserina é maior que grifinória")
+    }else if(grifinória=sonserina){
+        println("Grifinória é tão grande quanto sonserina")
+    }
+    
+    println("")
+    
+    var num = 3
+    
+    if(num > 0){
+        println("O número é positivo")
+    }else if(num < 0){
+        println("O número é negativo")
+    }else if(num = 0){
+        println("O número é 0")
+    }
+    
+    
+}
+    
+    
