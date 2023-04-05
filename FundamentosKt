@@ -186,7 +186,7 @@ if(coracoes >= 5){
     }else{
         println("Aproveite o show!")
     }
-    */
+   
     
     //Exercício -> No MetroidVania,para o Hero ir para e tela de GameOver,
     // seus corações precisam ser igual a zero e
@@ -198,17 +198,56 @@ if(coracoes >= 5){
     var coracoes = 0
     var vidas = 0
     
-    if(coracoes = 0){
+    if(coracoes == 0){
         
-        if (coracoes = 0 && vidas >=0 == true){
+        if (coracoes == 0 && vidas >=0 == true){
             println("Game Over")
         }else{
             println("Viveu")
         }
         
     }else{
-        println("Viveu")
+        println("Viveu")}
+    
+ */
+    
+    // When - Quando
+    // 
+    // Comparação de quando um valor for igual a um determinado valor,
+    // uma determinada ação será executada
+    // 
+    // Estrutura do When
+    // 
+    // var auxiliar = valor
+    // 
+    // when(auxiliar){
+    // Valor -> {ação}
+    // Valor -> {ação}
+    // Valor -> {ação}
+    // Valor -> {ação}
+    // else - > {ação}
+    // }
+    // será usado geralmente quando durante o programa o valor da variável
+    // não for estático, ou seja, ele estiver mudando
+    
+    var mes = 5
+    
+    when(mes){
+        1 -> {println("Lisboa")}
+        2 -> {println("Nova York")}
+        3 -> {println("Rio de Janeiro")}
+        4 -> {println("São Paulo")}
+        5 -> {println("Keylandia")}
+        6 -> {println("Milwaukee")}
+        7 -> {println("Barcelona")}
+        8 -> {println("Springfield")}
+        9 -> {println("Los Pollos Hermanos")}
+        10 -> {println("Elmore")}
+        11-> {println("Toronto")}
+        12 -> {println("Seoul")}
+        else -> println ("Você acordou")
+        
+    }
     
 }
-    
     
