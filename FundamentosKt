@@ -209,7 +209,7 @@ if(coracoes >= 5){
     }else{
         println("Viveu")}
     
- */
+
     
     // When - Quando
     // 
@@ -248,6 +248,25 @@ if(coracoes >= 5){
         else -> println ("Você acordou")
         
     }
+     */
+    
+    // Exercício -> Escreva um programa e Kotlin que declare ema variável chamada
+    // "Diasemana" do tipo String, que represente um dia da semana. Em seguida, utilize a
+    // declaração "when" para exibir uma mensagem na tela informando se o dia da semana é 
+    // um dia útil ou um final de semana.
+    // 
+    
+    var diaSemana = "sexta"
+    
+    when(mes){
+        "Segunda" -> {println("Dia útil")}
+        "Terça" -> {println("Dia útil")}
+        "Quarta" -> {println("Dia útil")}
+        "Quinta" -> {println("Dia útil")}
+        "Sexta" -> {println("Dia útil")}
+        "Sábado" -> {println("Fim de Semana")}
+        "Domingo" -> {println("Fim de Semana")}
+        else -> println ("Feriado")
     
 }
     
