@@ -248,7 +248,7 @@ if(coracoes >= 5){
         else -> println ("Você acordou")
         
     }
-     */
+     
     
     // Exercício -> Escreva um programa e Kotlin que declare ema variável chamada
     // "Diasemana" do tipo String, que represente um dia da semana. Em seguida, utilize a
@@ -267,6 +267,74 @@ if(coracoes >= 5){
         "Sábado" -> {println("Fim de Semana")}
         "Domingo" -> {println("Fim de Semana")}
         else -> println ("Feriado")
+
+        
+        // Laços de Repetição - Loops
+        // 
+        // repeat - repita
+        // while - enquanto
+        // do..while - faça..enquanto
+        // for - para
+        // 
+        // Repeat - repita
+        // vai repetir uma determinada ação uma determinada quantidade de vezes
+        // 
+        // Estrutura do Repeat
+        // 
+        // repeat(númeroVezes){
+        // ação
+        // }
+        // 
+        repeat(8){
+            println("Isso é um teste")
+        }
+        
+        // Exercício - Faça um programa com auxilio de uma variável contador,
+        // no qual nela será acrescentado 1 a cada repetição,
+        // até dar o número decidido
+        
+    var ChampionsRM = 9
+    
+    repeat(5){
+            println(ChampionsRM ++)
+        }
+
+    
+    //While - Enquanto
+    //
+    //Enquanto uma condição for verdadeira, uma determinada ação estará sendo executada
+    //
+    //Estrutura do While
+    //packagewhile(condição){
+    //ação
+    //}
+    var contador= 0
+    while(contador < 10){
+        println(contador++)
+    }
+    */
+    
+    var bateria = 100
+    
+    while (bateria > 15){
+        println(bateria --)
+    }
+    
+     (bateria = 15){
+        println("Conecte o carregador")
+    }
+     
+    while (bateria > 5){
+        println(bateria --)
+    }
+    
+     (bateria = 0){
+        println("Aparelho desligando")
+    }
+    
+    
+    
+    
     
 }
     
